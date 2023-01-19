@@ -1,0 +1,173 @@
+*{padding: 0;
+    margin: 0;
+    }
+    .uvodny_obrazok{
+        border-radius: 50%;
+        width: 20vw;
+        height: 50vh;
+        float: left;
+        padding-left: 30vh;
+        padding-right: 15vh;
+        padding-top: 15vh;
+    }
+    .navi{
+        text-decoration: none;
+        color:yellow;
+        font-family: 'Alexandria', sans-serif;
+    }
+    header{
+        padding-top: 2vh;
+        padding-bottom: 4vh;
+        width: 100vw;
+        background-color: black;
+    }
+    nav{
+        position: absolute;
+        left: 82vw;
+    }
+    
+    .head{
+        list-style-type: none;
+        display: inline;
+        padding-left: 0.8vw;
+        padding-right: 0.8vw;
+        padding-top: 0.8vh;
+        padding-bottom: 0.5vh;
+    }
+    p{
+        font-family: 'Alexandria', sans-serif;
+        display: inline;
+    }
+    .head:hover{
+        border-radius: 10%;
+        background-color: yellow;
+        
+    }
+    .navi:hover{
+        color:black;
+        font-weight: bold;
+    }
+    
+    body{
+        background-color: gray;
+    }
+    .logo{
+        display: inline;
+        position: absolute;
+        height: 5.5vh;
+        left: 1.5vw;
+        top: 0.4vh;   
+        float: left;
+    } 
+    .nadpis{
+        font-weight: bold;
+    }
+    .udaje{
+        position: relative;
+        top: 10vh;
+        left: 50vw;
+        float: left;
+        padding: 5vw;
+        border-radius: 20%;
+        background-color: yellow;
+    
+    }
+    .udaje2{
+        position: relative;
+        top: 15vh;
+        left: 25vw;
+        float: left;
+        padding: 5vw;
+        border-radius: 20%;
+        background-color: #FFFF64;
+    
+    }
+    .obec_u{
+        list-style-type: none;
+        font-size: larger;
+        position: relative;
+        right: 1.5vw;
+    }
+    .obsah{
+        display: block;
+    }
+    @media only screen and (max-width: 1300px) {
+        .logo{
+            height: 10vh;
+            top: 3.5vh;
+            left: 2.5vw;
+            
+        } 
+        header{
+            padding-top: 6vh;
+            padding-bottom: 10vh;
+        }
+        
+        nav{
+            top: 1vh;
+            left: 90vw;
+        }
+        li:hover{
+            border-radius: 10%;
+        }
+    
+        li{
+            display:block;
+
+        }
+        
+        .udaje{
+            
+            top: 20vh;
+            left: 40vw;
+        }
+        .udaje2{
+            top: 85vh;
+            left: 10vw;
+        }
+        
+    }
+    @media only screen and (max-width: 800px) {
+        .logo{
+            height: 10vh;
+            top: 3.5vh;
+            left: 2vw;
+            
+        } 
+        header{
+            padding-top: 6vh;
+            padding-bottom: 10vh;
+        }
+        
+        nav{
+            top: 1vh;
+            left: 85vw;
+        }
+        li:hover{
+            border-radius: 10%;
+        }
+        
+        
+        li{
+            display:block;
+        }
+        
+        h1{
+            position: relative;
+            top: -15vh;
+        }
+        p{
+            
+            left:33vw;
+            top: -15vh;
+        }  
+        .udaje{
+            top: 20vh;
+            left:20vw;
+        }
+        .udaje2{
+            top: 30vh;
+            left: 20vw;
+        
+        }
+    }

@@ -1,0 +1,140 @@
+*{padding: 0;
+    margin: 0;
+    }
+    
+    .navi{
+        text-decoration: none;
+        color:yellow;
+        font-family: 'Alexandria', sans-serif;
+    }
+    header{
+        padding-top: 2vh;
+        padding-bottom: 4vh;
+        width: 100vw;
+        background-color: black;
+    }
+    nav{
+        position: absolute;
+        left: 82vw;
+    }
+    
+    li{
+        list-style-type: none;
+        display: inline;
+        padding-left: 0.8vw;
+        padding-right: 0.8vw;
+        padding-top: 0.8vh;
+        padding-bottom: 0.5vh;
+    }
+    h1{
+        padding-right: 15vh;
+        padding-top: 20vh;
+    
+    }
+    li:hover{
+        border-radius: 10%;
+        background-color: yellow;
+        
+    }
+    .navi:hover{
+        color:black;
+        font-weight: bold;
+    }
+    
+    body{
+        background-color: gray;
+    }
+    .logo{
+        display: inline;
+        position: absolute;
+        height: 50px;
+        left: 1.5vw;
+        top: 0.4vh;   
+        float: left;
+    } 
+    
+      @media only screen and (max-width: 1300px) {
+        .logo{
+            height: 10vh;
+            top: 3.5vh;
+            left: 2.5vw;
+            
+        } 
+        header{
+            padding-top: 6vh;
+            padding-bottom: 10vh;
+        }
+        .drop button{
+            overflow: hidden;
+        }
+        nav{
+            top: 1vh;
+            left: 90vw;
+        }
+        li:hover{
+            border-radius: 10%;
+        }
+        
+        li{
+            display:block;
+        }
+        .obrazok1{
+            height: 80vh;;
+          }
+        .obrazok2{
+            width: 60vw;
+        }
+        .obrazok3{
+            padding-top:60vh;
+            width: 97vw;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .logo{
+            height: 10vh;
+            top: 3.5vh;
+            left: 2vw;
+            
+        } 
+        header{
+            padding-top: 6vh;
+            padding-bottom: 10vh;
+        }
+        .drop button{
+            overflow: hidden;
+        }
+        nav{
+            top: 1vh;
+            left: 85vw;
+        }
+        li:hover{
+            border-radius: 10%;
+        }
+       
+        
+        li{
+            display:block;
+        }
+        
+        
+        h1{
+            position: relative;
+            top: -15vh;
+        }
+        p{
+            position: relative;
+            left:33vw;
+            top: -15vh;
+        }
+        .obrazok1{
+            height: 70vh;
+        }
+      .obrazok2{
+        padding-left:0;
+          width: 100vw;
+      }
+      .obrazok3{
+          padding-top: 100vh;
+          width: 96.5vw;
+      }
+    }
